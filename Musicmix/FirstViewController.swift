@@ -10,6 +10,12 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet var helloLabel:UILabel!
+    
+    @IBAction func buttonTapped(sender: AnyObject){
+        helloLabel.center = CGPoint(x: helloLabel.center.x, y: helloLabel.center.y+5)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
