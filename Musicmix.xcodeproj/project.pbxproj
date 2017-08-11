@@ -18,6 +18,8 @@
 		2AE1F7161F3C23EF00E3D847 /* MusicmixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE1F7151F3C23EF00E3D847 /* MusicmixUITests.swift */; };
 		6BF4D8173B3049B88C36FF24 /* Pods_Musicmix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC04E6E955331AEABDB8364 /* Pods_Musicmix.framework */; };
 		99EFD83BB85751F61F3A7A5E /* Pods_MusicmixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C11BC6B8FA0AFE81D7E795 /* Pods_MusicmixTests.framework */; };
+		B0D929F71F3D7BF30082F161 /* out_zonbi.wav in Resources */ = {isa = PBXBuildFile; fileRef = B0D929F61F3D7BF30082F161 /* out_zonbi.wav */; };
+		B0D929F91F3D80B40082F161 /* correct1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0D929F81F3D80B40082F161 /* correct1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		890395E7625010A5419D20E3 /* Pods-MusicmixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicmixTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicmixTests/Pods-MusicmixTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BC04E6E955331AEABDB8364 /* Pods_Musicmix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Musicmix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C11BC6B8FA0AFE81D7E795 /* Pods_MusicmixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicmixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D929F61F3D7BF30082F161 /* out_zonbi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = out_zonbi.wav; path = ../../../Downloads/out_zonbi.wav; sourceTree = "<group>"; };
+		B0D929F81F3D80B40082F161 /* correct1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = correct1.mp3; path = ../../../Downloads/correct1.mp3; sourceTree = "<group>"; };
 		BB63F6CD5B87AFE71C18F9E3 /* Pods-MusicmixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicmixTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicmixTests/Pods-MusicmixTests.release.xcconfig"; sourceTree = "<group>"; };
 		C3F7F0146F23FB6B9F7FA098 /* Pods-MusicmixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicmixUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicmixUITests/Pods-MusicmixUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,6 +122,8 @@
 			children = (
 				2AE1F6F31F3C23EE00E3D847 /* AppDelegate.swift */,
 				2AE1F6F51F3C23EE00E3D847 /* FirstViewController.swift */,
+				B0D929F61F3D7BF30082F161 /* out_zonbi.wav */,
+				B0D929F81F3D80B40082F161 /* correct1.mp3 */,
 				2AE1F6F71F3C23EE00E3D847 /* SecondViewController.swift */,
 				2AE1F6F91F3C23EE00E3D847 /* Main.storyboard */,
 				2AE1F6FC1F3C23EE00E3D847 /* Assets.xcassets */,
@@ -287,8 +293,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0D929F91F3D80B40082F161 /* correct1.mp3 in Resources */,
 				2AE1F7001F3C23EE00E3D847 /* LaunchScreen.storyboard in Resources */,
 				2AE1F6FD1F3C23EE00E3D847 /* Assets.xcassets in Resources */,
+				B0D929F71F3D7BF30082F161 /* out_zonbi.wav in Resources */,
 				2AE1F6FB1F3C23EE00E3D847 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -725,6 +733,7 @@
 				2AE1F71C1F3C23EF00E3D847 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AE1F71D1F3C23EF00E3D847 /* Build configuration list for PBXNativeTarget "MusicmixTests" */ = {
 			isa = XCConfigurationList;
@@ -733,6 +742,7 @@
 				2AE1F71F1F3C23EF00E3D847 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AE1F7201F3C23EF00E3D847 /* Build configuration list for PBXNativeTarget "MusicmixUITests" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +751,7 @@
 				2AE1F7221F3C23EF00E3D847 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
